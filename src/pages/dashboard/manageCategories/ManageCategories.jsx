@@ -13,7 +13,7 @@ const ManageCategories = () => {
         description: ''
     });
 
-    const API_URL = import.meta.env.VITE_API_URL || 'https://backend-bb1s.onrender.com';
+    const API_URL = import.meta.env.VITE_API_URL || 'https://backend-8zha.onrender.com';
 
     useEffect(() => {
         fetchCategories();
