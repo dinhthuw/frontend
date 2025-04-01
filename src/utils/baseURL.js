@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-    return "https://backend-bb1s.onrender.com"
+    return "https://backend-8zha.onrender.com"
 }
 
 export default getBaseUrl;
