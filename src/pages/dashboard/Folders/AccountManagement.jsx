@@ -17,7 +17,7 @@ const AccountManagement = () => {
         isActive: true
     });
 
-    const API_URL = import.meta.env.VITE_API_URL || 'https://backend-bb1s.onrender.com';
+    const API_URL = import.meta.env.VITE_API_URL || 'https://backend-e339.onrender.com';
 
     useEffect(() => {
         const token = localStorage.getItem('token');
