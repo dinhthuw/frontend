@@ -7,7 +7,7 @@ const ManageOrders = () => {
     const [orders, setOrders] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    const API_URL = import.meta.env.VITE_API_URL || 'https://backend-bb1s.onrender.com';
+    const API_URL = import.meta.env.VITE_API_URL || 'https://backend-8zha.onrender.com';
 
     useEffect(() => {
         const token = localStorage.getItem('token');
