@@ -28,7 +28,7 @@ const AddBook = () => {
     const navigate = useNavigate();
     const { data: categoriesData = [], isLoading: isCategoriesLoading } = useFetchAllCategoriesQuery();
 
-    const API_URL = 'https://backend-bb1s.onrender.com/api/books';
+    const API_URL = 'https://backend-e339.onrender.com';
 
     useEffect(() => {
         const token = localStorage.getItem('token');
