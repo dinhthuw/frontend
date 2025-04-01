@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 export const booksApi = createApi({
     reducerPath: 'booksApi',
     baseQuery: fetchBaseQuery({ 
-        baseUrl: 'https://backend-e339.onrender.com',
+        baseUrl: 'https://backend-e339.onrender.com/api',
         prepareHeaders: (headers, { getState }) => {
             const token = localStorage.getItem('token')
             if (token) {
