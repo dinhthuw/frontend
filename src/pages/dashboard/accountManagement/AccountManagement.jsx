@@ -5,7 +5,7 @@ import { IoAddCircleOutline } from 'react-icons/io5';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://backend-bb1s.onrender.com/';
+const API_URL = import.meta.env.VITE_API_URL || 'https://backend-8zha.onrender.com';
 
 const AccountManagement = () => {
     const [user, setUser] = useState(null);
